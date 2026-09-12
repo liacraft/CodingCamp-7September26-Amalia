@@ -90,7 +90,7 @@ Build a single-page, client-side dashboard from scratch as exactly three files: 
     - `loadUserName`: reads `localStorage.userName`; returns `""` if absent
     - `persistUserName("")`: removes the key; non-empty: sets the key
     - _Requirements: 3.3, 3.4, 3.5, 13.3_
-  - [-] 6.4 Implement `loadTheme()` (reading only; `persistTheme` lives in the Theme component)
+  - [x] 6.4 Implement `loadTheme()` (reading only; `persistTheme` lives in the Theme component)
     - Returns `localStorage.theme` or `"light"` as default
     - _Requirements: 12.4, 12.5, 13.3_
   - [ ]* 6.5 Write property test for task persistence round-trip (Property 3)
