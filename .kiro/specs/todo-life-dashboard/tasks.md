@@ -106,7 +106,7 @@ Build a single-page, client-side dashboard from scratch as exactly three files: 
     - Use `fc.string().filter(s => { try { JSON.parse(s); return false; } catch { return true; } })`; assert `loadTasks()` / `loadLinks()` returns `[]` without throwing
     - **Validates: Requirements 13.4**
 
-- [~] 7. Checkpoint — Ensure all utility and storage tests pass
+- [-] 7. Checkpoint — Ensure all utility and storage tests pass
   - Confirm `getGreeting`, `formatTimer`, and all `load*`/`persist*` functions behave correctly before building UI components on top of them.
   - Ensure all tests pass, ask the user if questions arise.
 
